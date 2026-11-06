@@ -1,0 +1,8 @@
+[
+  { "id": "p1", "lotId": "l1", "montant": 2124, "date": "2025-09-22", "mode": "mobile_money" },
+  { "id": "p2", "lotId": "l2", "montant": 5635, "date": "2025-09-27", "mode": "especes" },
+  { "id": "p3", "lotId": "l5", "montant": 2831, "date": "2025-10-14", "mode": "mobile_money" },
+  { "id": "p4", "lotId": "l8", "montant": 1281, "date": "2025-10-30", "mode": "especes" },
+  { "id": "p5", "lotId": "l11", "montant": 2521.5, "date": "2025-11-14", "mode": "mobile_money" },
+  { "id": "p6", "lotId": "l12", "montant": 3382, "date": "2025-11-20", "mode": "especes" }
+]

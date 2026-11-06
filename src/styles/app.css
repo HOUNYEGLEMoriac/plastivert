@@ -1,0 +1,45 @@
+/* ===== Espace connecté : cadre, navigation, cartes (préfixe pv-) ===== */
+
+.pv-app { min-height: 100vh; display: flex; background: var(--color-bg); }
+.pv-content { flex: 1; min-width: 0; padding: var(--space-6) var(--container-padding-mobile) 96px; }
+@media (min-width: 768px) { .pv-content { padding: var(--space-8) var(--container-padding-desktop); } }
+.pv-content > * { max-width: 1100px; margin-left: auto; margin-right: auto; }
+
+/* Les pages existantes enveloppent encore leur contenu dans .app-shell / .main :
+   on neutralise ces anciens conteneurs pour éviter les décalages. */
+.pv-content .app-shell { display: block !important; min-height: 0 !important; padding: 0 !important; margin: 0 !important; grid-template-columns: none !important; background: transparent !important; }
+.pv-content .main { margin: 0 !important; padding: 0 !important; max-width: none !important; width: auto !important; }
+.pv-content .main > * + * { margin-top: var(--space-6); }
+
+/* Barre latérale (desktop) */
+.pv-sidebar { display: none; flex-direction: column; width: 248px; flex: none; position: sticky; top: 0; height: 100vh; background: var(--color-surface); border-right: 1px solid var(--color-border); padding: var(--space-4); }
+@media (min-width: 768px) { .pv-sidebar { display: flex; } }
+.pv-sidebar-brand { padding: var(--space-2) var(--space-3) var(--space-6); font-size: var(--font-size-lg); font-weight: var(--font-weight-semibold); color: var(--color-primary); text-decoration: none; }
+.pv-sidebar-nav { display: flex; flex-direction: column; gap: var(--space-1); flex: 1; }
+.pv-sidebar-nav a { position: relative; display: flex; align-items: center; gap: var(--space-3); min-height: 44px; padding: 0 var(--space-3); border-radius: var(--radius-sm); color: var(--color-text-secondary); font-size: var(--font-size-sm); font-weight: var(--font-weight-medium); text-decoration: none; }
+.pv-sidebar-nav a:hover { background: #F1F5F9; color: var(--color-text); text-decoration: none; }
+.pv-sidebar-nav a.router-link-exact-active { background: var(--color-primary-light); color: var(--color-primary); }
+.pv-sidebar-nav a.router-link-exact-active::before { content: ""; position: absolute; left: -16px; top: 8px; bottom: 8px; width: 3px; border-radius: 0 3px 3px 0; background: var(--color-primary); }
+.pv-sidebar-foot { border-top: 1px solid var(--color-border); padding-top: var(--space-4); display: flex; flex-direction: column; gap: var(--space-1); align-items: flex-start; }
+.pv-sidebar-name { margin: 0; font-size: var(--font-size-sm); font-weight: var(--font-weight-semibold); color: var(--color-text); }
+.pv-sidebar-role { margin: 0 0 var(--space-3); font-size: var(--font-size-xs); color: var(--color-text-muted); }
+
+/* Barre du bas (mobile) */
+.pv-bottomnav { position: fixed; left: 0; right: 0; bottom: 0; z-index: 60; display: grid; grid-template-columns: repeat(4, 1fr); background: var(--color-surface); border-top: 1px solid var(--color-border); padding-bottom: env(safe-area-inset-bottom, 0); }
+@media (min-width: 768px) { .pv-bottomnav { display: none; } }
+.pv-bottomnav a { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; min-height: 56px; color: var(--color-text-muted); font-size: 11px; font-weight: var(--font-weight-medium); text-decoration: none; }
+.pv-bottomnav a.router-link-exact-active { color: var(--color-primary); }
+
+/* En-tête de page et cartes */
+.pv-pagehead { margin-bottom: var(--space-6); }
+.pv-pagehead h1 { margin: 0 0 var(--space-1); font-size: var(--font-size-xl); font-weight: var(--font-weight-semibold); color: var(--color-text); }
+.pv-pagehead p { margin: 0; color: var(--color-text-secondary); }
+.pv-crumb { margin-bottom: var(--space-1) !important; font-size: var(--font-size-xs); color: var(--color-text-muted) !important; text-transform: uppercase; letter-spacing: 0.04em; }
+
+.pv-card { padding: var(--space-6); margin-bottom: var(--space-4); background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-md); }
+.pv-card h2 { margin: 0; font-size: var(--font-size-lg); color: var(--color-text); }
+.pv-card-head { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); margin-bottom: var(--space-4); }
+.pv-welcome { display: flex; flex-direction: column; gap: var(--space-4); }
+.pv-welcome p { margin: var(--space-1) 0 0; color: var(--color-text-secondary); }
+@media (min-width: 768px) { .pv-welcome { flex-direction: row; align-items: center; justify-content: space-between; } .pv-welcome .pv-actions { margin-top: 0; } }
+.pv-list-plain { display: grid; gap: var(--space-3); }

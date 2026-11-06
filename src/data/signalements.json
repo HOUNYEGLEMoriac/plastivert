@@ -1,0 +1,6 @@
+[
+  { "id": "s1", "quartier": "togoudo", "description": "Depot sauvage pres du marche", "latitude": 6.401, "longitude": 2.36, "photo": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iODAiPjxyZWN0IHdpZHRoPSIxMjAiIGhlaWdodD0iODAiIGZpbGw9IiM5NGEzYjgiLz48dGV4dCB4PSI2MCIgeT0iNDQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IndoaXRlIiBmb250LXNpemU9IjEyIj5EZXBvdDwvdGV4dD48L3N2Zz4=", "statut": "nouveau", "date": "2025-11-01" },
+  { "id": "s2", "quartier": "godomey", "description": "Sacs plastique abandonnes", "latitude": 6.38, "longitude": 2.33, "photo": null, "statut": "en_cours", "date": "2025-10-20" },
+  { "id": "s3", "quartier": "zoundja", "description": "Bouteilles PET sur la voie", "latitude": 6.45, "longitude": 2.35, "photo": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iODAiPjxyZWN0IHdpZHRoPSIxMjAiIGhlaWdodD0iODAiIGZpbGw9IiM5NGEzYjgiLz48dGV4dCB4PSI2MCIgeT0iNDQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IndoaXRlIiBmb250LXNpemU9IjEyIj5EZXBvdDwvdGV4dD48L3N2Zz4=", "statut": "traite", "date": "2025-10-05" },
+  { "id": "s4", "quartier": "akassato", "description": "Depot mixte", "latitude": 6.49, "longitude": 2.37, "photo": null, "statut": "nouveau", "date": "2025-11-05" }
+]

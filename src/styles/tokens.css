@@ -1,0 +1,93 @@
+:root {
+  /* Couleurs primaires */
+  --color-primary: #1F6F43;
+  --color-primary-hover: #195C37;
+  --color-primary-active: #14532D;
+  --color-primary-light: #E8F3EC;
+
+  /* Neutres slate */
+  --color-text: #0F172A;
+  --color-text-secondary: #475569;
+  --color-text-muted: #64748B;
+  --color-border: #E2E8F0;
+  --color-bg: #F8FAFC;
+  --color-surface: #FFFFFF;
+
+  /* Semantiques */
+  --color-success: #15803D;
+  --color-warning: #B45309;
+  --color-danger: #B91C1C;
+  --color-info: #1D4ED8;
+
+  --color-success-light: #DCFCE7;
+  --color-warning-light: #FEF3C7;
+  --color-danger-light: #FEE2E2;
+  --color-info-light: #DBEAFE;
+
+  /* Typographie */
+  --font-family: 'Inter Variable', Inter, system-ui, -apple-system, sans-serif;
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-lg: 20px;
+  --font-size-xl: 24px;
+  --font-size-2xl: 30px;
+  --font-size-3xl: 36px;
+
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+
+  --line-height: 1.5;
+
+  /* Espacement (grille 4px) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* Rayons */
+  --radius-sm: 6px;
+  --radius-md: 8px;
+
+  /* Ombre légère */
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.06);
+  --shadow-md: 0 4px 12px rgba(15, 23, 42, 0.08);
+
+  /* Conteneur */
+  --container-max: 1200px;
+  --container-padding-mobile: 16px;
+  --container-padding-desktop: 32px;
+
+  /* Transitions */
+  --transition: 150ms ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
+/* Alias de compatibilité : relient les anciens noms aux variables Plastivert */
+:root {
+  --space-5: 20px;
+
+  --bg: var(--color-bg);
+  --text: var(--color-text-secondary);
+  --text-h: var(--color-text);
+  --heading: var(--color-text);
+  --border: var(--color-border);
+
+  --accent: var(--color-primary);
+  --accent-bg: var(--color-primary-light);
+  --accent-border: #BBD9C7;
+
+  --code-bg: #F1F5F9;
+  --social-bg: #F1F5F9;
+  --shadow: var(--shadow-sm);
+
+  --sans: var(--font-family);
+  --mono: ui-monospace, Menlo, Consolas, monospace;
+}

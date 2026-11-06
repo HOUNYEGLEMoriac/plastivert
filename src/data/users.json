@@ -1,0 +1,4 @@
+[
+  { "id": "user-col", "role": "collecteur", "collecteurId": "col1", "nom": "Afi Koudjo", "email": "afi@demo.plastivert.bj", "telephone": "+229 97 12 34 56", "actif": true },
+  { "id": "user-centre", "role": "centre", "nom": "Centre Zoundja", "email": "centre@demo.plastivert.bj", "telephone": "+229 95 22 33 44", "actif": true, "centreId": "c1" }
+]

@@ -1,0 +1,8 @@
+[
+  { "id": "col1", "type": "ramasseur", "nom": "Afi Koudjo", "telephone": "+229 97 12 34 56", "quartier": "zoundja", "actif": true, "dateInscription": "2025-09-15" },
+  { "id": "col2", "type": "association", "nom": "Association Verte Calavi", "telephone": "+229 96 23 45 67", "quartier": "calavi-centre", "actif": true, "dateInscription": "2025-09-22" },
+  { "id": "col3", "type": "pre_collecteur", "nom": "Koffi Mensah", "telephone": "+229 95 34 56 78", "quartier": "godomey", "actif": true, "dateInscription": "2025-10-02" },
+  { "id": "col4", "type": "gros_producteur", "nom": "Buvette Chez Maman", "telephone": "+229 94 45 67 89", "quartier": "togoudo", "actif": true, "dateInscription": "2025-10-08" },
+  { "id": "col5", "type": "ramasseur", "nom": "Yao Dossou", "telephone": "+229 93 56 78 90", "quartier": "akassato", "actif": true, "dateInscription": "2025-10-15" },
+  { "id": "col6", "type": "association", "nom": "Jeunes Ecologistes", "telephone": "+229 92 67 89 01", "quartier": "cotonou-centre", "actif": false, "dateInscription": "2025-11-02" }
+]

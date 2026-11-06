@@ -1,0 +1,21 @@
+{
+  "name": "Plastivert",
+  "short_name": "Plastivert",
+  "description": "Mise en relation collecteurs et centres de recyclage à Abomey-Calavi",
+  "theme_color": "#1F6F43",
+  "background_color": "#F8FAFC",
+  "display": "standalone",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

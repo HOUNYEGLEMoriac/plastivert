@@ -1,0 +1,15 @@
+[
+  { "id": "l1", "collecteurId": "col1", "centreId": "c1", "typePlastique": "PET", "poidsEstime": 12, "poidsReel": 11.8, "datePrevue": "2025-09-20", "dateReception": "2025-09-21", "statut": "paye", "montantEstime": 2160, "montantPaye": 2124 },
+  { "id": "l2", "collecteurId": "col2", "centreId": "c3", "typePlastique": "PEHD", "poidsEstime": 25, "poidsReel": 24.5, "datePrevue": "2025-09-25", "dateReception": "2025-09-26", "statut": "paye", "montantEstime": 5750, "montantPaye": 5635 },
+  { "id": "l3", "collecteurId": "col3", "centreId": "c2", "typePlastique": "PET", "poidsEstime": 8, "poidsReel": 8.2, "datePrevue": "2025-10-03", "dateReception": "2025-10-04", "statut": "recu", "montantEstime": 1360, "montantPaye": null },
+  { "id": "l4", "collecteurId": "col4", "centreId": "c3", "typePlastique": "SACHETS", "poidsEstime": 30, "poidsReel": null, "datePrevue": "2025-10-10", "dateReception": null, "statut": "annonce", "montantEstime": 3900, "montantPaye": null },
+  { "id": "l5", "collecteurId": "col1", "centreId": "c3", "typePlastique": "PET", "poidsEstime": 15, "poidsReel": 14.9, "datePrevue": "2025-10-12", "dateReception": "2025-10-13", "statut": "paye", "montantEstime": 2850, "montantPaye": 2831 },
+  { "id": "l6", "collecteurId": "col5", "centreId": "c1", "typePlastique": "PEHD", "poidsEstime": 10, "poidsReel": null, "datePrevue": "2025-10-18", "dateReception": null, "statut": "annonce", "montantEstime": 2200, "montantPaye": null },
+  { "id": "l7", "collecteurId": "col2", "centreId": "c5", "typePlastique": "SACHETS", "poidsEstime": 20, "poidsReel": 19.6, "datePrevue": "2025-10-22", "dateReception": "2025-10-23", "statut": "recu", "montantEstime": 2500, "montantPaye": null },
+  { "id": "l8", "collecteurId": "col3", "centreId": "c3", "typePlastique": "PP", "poidsEstime": 6, "poidsReel": 6.1, "datePrevue": "2025-10-28", "dateReception": "2025-10-29", "statut": "paye", "montantEstime": 1260, "montantPaye": 1281 },
+  { "id": "l9", "collecteurId": "col4", "centreId": "c1", "typePlastique": "PET", "poidsEstime": 40, "poidsReel": 39.5, "datePrevue": "2025-11-05", "dateReception": "2025-11-06", "statut": "recu", "montantEstime": 7200, "montantPaye": null },
+  { "id": "l10", "collecteurId": "col1", "centreId": "c2", "typePlastique": "PET", "poidsEstime": 5, "poidsReel": null, "datePrevue": "2025-11-08", "dateReception": null, "statut": "annonce", "montantEstime": 850, "montantPaye": null },
+  { "id": "l11", "collecteurId": "col5", "centreId": "c5", "typePlastique": "PP", "poidsEstime": 12, "poidsReel": 12.3, "datePrevue": "2025-11-12", "dateReception": "2025-11-13", "statut": "paye", "montantEstime": 2460, "montantPaye": 2521.5 },
+  { "id": "l12", "collecteurId": "col2", "centreId": "c3", "typePlastique": "PET", "poidsEstime": 18, "poidsReel": 17.8, "datePrevue": "2025-11-18", "dateReception": "2025-11-19", "statut": "paye", "montantEstime": 3420, "montantPaye": 3382 },
+  { "id": "l13", "collecteurId": "col3", "centreId": "c1", "typePlastique": "SACHETS", "poidsEstime": 22, "poidsReel": null, "datePrevue": "2025-11-22", "dateReception": null, "statut": "annonce", "montantEstime": 2640, "montantPaye": null }
+]

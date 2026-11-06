@@ -1,0 +1,6 @@
+[
+  { "id": "PET", "libelle": "PET (bouteilles)" },
+  { "id": "PEHD", "libelle": "PEHD (bidons)" },
+  { "id": "SACHETS", "libelle": "Sachets et films" },
+  { "id": "PP", "libelle": "PP (barquettes)" }
+]
